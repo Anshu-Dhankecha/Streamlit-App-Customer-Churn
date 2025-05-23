@@ -1,9 +1,6 @@
 import numpy as np 
 import pandas as pd 
-from sklearn.preprocessing import StandardScaler,LabelEncoder, OneHotEncoder
-import tensorflow
-from tensorflow import keras
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import streamlit as st
 import pickle
 
